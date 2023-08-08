@@ -6,7 +6,7 @@ on:
       - 'README.md'
       - 'imgs/**'
   schedule:
-    - cron: * /4 * * *
+    - cron: 30 0,6,12,18 * * *
   watch:
     types: [started]
 jobs:
